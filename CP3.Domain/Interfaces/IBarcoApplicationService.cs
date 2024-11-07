@@ -1,5 +1,6 @@
 ﻿using CP3.Domain.Entities;
 using CP3.Domain.Interfaces.Dtos;
+using System.Collections.Generic;
 
 namespace CP3.Domain.Interfaces
 {
@@ -10,6 +11,5 @@ namespace CP3.Domain.Interfaces
         BarcoEntity AdicionarBarco(IBarcoDto entity);
         BarcoEntity EditarBarco(int id, IBarcoDto entity);
         BarcoEntity RemoverBarco(int id);
-
     }
 }
